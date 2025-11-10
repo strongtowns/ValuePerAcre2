@@ -1,0 +1,352 @@
+[
+  {
+    "level": 0,
+    "minLevelBlockValue": 1084.5805296530928,
+    "maxLevelBlockValue": 12570.156421321828,
+    "avgLevelBlockValue": 9275.50688143796,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 1,
+    "minLevelBlockValue": 12583.821621610889,
+    "maxLevelBlockValue": 21170.632615670762,
+    "avgLevelBlockValue": 16244.598587589582,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 2,
+    "minLevelBlockValue": 21177.612304997416,
+    "maxLevelBlockValue": 43962.15028494135,
+    "avgLevelBlockValue": 31692.245290904215,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 3,
+    "minLevelBlockValue": 44235.856300814616,
+    "maxLevelBlockValue": 75387.14959409767,
+    "avgLevelBlockValue": 61828.1456133399,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 4,
+    "minLevelBlockValue": 75576.42103129142,
+    "maxLevelBlockValue": 93065.3306342405,
+    "avgLevelBlockValue": 84830.00647528216,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 5,
+    "minLevelBlockValue": 93120.17000989174,
+    "maxLevelBlockValue": 108267.86203041501,
+    "avgLevelBlockValue": 100915.90436874951,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 6,
+    "minLevelBlockValue": 108272.82708709185,
+    "maxLevelBlockValue": 120149.34938074974,
+    "avgLevelBlockValue": 114314.4223538962,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 7,
+    "minLevelBlockValue": 120189.57614482146,
+    "maxLevelBlockValue": 128124.91740134092,
+    "avgLevelBlockValue": 124370.88788092764,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 8,
+    "minLevelBlockValue": 128201.10658149012,
+    "maxLevelBlockValue": 135614.05484577044,
+    "avgLevelBlockValue": 131977.36052537727,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 9,
+    "minLevelBlockValue": 135624.36554625153,
+    "maxLevelBlockValue": 142801.38705366317,
+    "avgLevelBlockValue": 139015.5487081539,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 10,
+    "minLevelBlockValue": 142808.19229057335,
+    "maxLevelBlockValue": 150317.75815731313,
+    "avgLevelBlockValue": 146418.37393153147,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 11,
+    "minLevelBlockValue": 150347.57984840282,
+    "maxLevelBlockValue": 156954.54939227752,
+    "avgLevelBlockValue": 153738.57191048394,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 12,
+    "minLevelBlockValue": 156969.03458233466,
+    "maxLevelBlockValue": 163140.99697057888,
+    "avgLevelBlockValue": 160072.519388447,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 13,
+    "minLevelBlockValue": 163194.67247068562,
+    "maxLevelBlockValue": 169613.14168553762,
+    "avgLevelBlockValue": 166541.5630363853,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 14,
+    "minLevelBlockValue": 169628.5778068813,
+    "maxLevelBlockValue": 175865.98115558497,
+    "avgLevelBlockValue": 172658.81397691235,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 15,
+    "minLevelBlockValue": 175919.72192999243,
+    "maxLevelBlockValue": 182212.26416113382,
+    "avgLevelBlockValue": 179028.4092748822,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 16,
+    "minLevelBlockValue": 182223.1481298599,
+    "maxLevelBlockValue": 187566.9679014088,
+    "avgLevelBlockValue": 184973.1746007053,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 17,
+    "minLevelBlockValue": 187598.9339069682,
+    "maxLevelBlockValue": 193261.70678174507,
+    "avgLevelBlockValue": 190490.08595704928,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 18,
+    "minLevelBlockValue": 193263.75008747762,
+    "maxLevelBlockValue": 198762.75447489775,
+    "avgLevelBlockValue": 195949.66754336885,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 19,
+    "minLevelBlockValue": 198809.12001912657,
+    "maxLevelBlockValue": 204815.28492800365,
+    "avgLevelBlockValue": 201791.16047301848,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 20,
+    "minLevelBlockValue": 204817.8771949625,
+    "maxLevelBlockValue": 211153.74583102675,
+    "avgLevelBlockValue": 208062.71072692674,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 21,
+    "minLevelBlockValue": 211181.37154924526,
+    "maxLevelBlockValue": 217177.23081872778,
+    "avgLevelBlockValue": 214267.3253600184,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 22,
+    "minLevelBlockValue": 217207.7883044015,
+    "maxLevelBlockValue": 223342.9024814468,
+    "avgLevelBlockValue": 220189.43130693352,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 23,
+    "minLevelBlockValue": 223388.0888650308,
+    "maxLevelBlockValue": 229659.49159948883,
+    "avgLevelBlockValue": 226411.8508271998,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 24,
+    "minLevelBlockValue": 229698.87602374348,
+    "maxLevelBlockValue": 235992.56386432468,
+    "avgLevelBlockValue": 232971.150891604,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 25,
+    "minLevelBlockValue": 236038.1521084603,
+    "maxLevelBlockValue": 242161.46569924906,
+    "avgLevelBlockValue": 239096.89752842425,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 26,
+    "minLevelBlockValue": 242184.21607261425,
+    "maxLevelBlockValue": 248403.69162652476,
+    "avgLevelBlockValue": 245171.70542863064,
+    "numLevelBlockValue": 218
+  },
+  {
+    "level": 27,
+    "minLevelBlockValue": 248431.90184697678,
+    "maxLevelBlockValue": 255125.10361328116,
+    "avgLevelBlockValue": 251665.94487676542,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 28,
+    "minLevelBlockValue": 255158.3904687182,
+    "maxLevelBlockValue": 262561.9496448992,
+    "avgLevelBlockValue": 258680.4545175951,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 29,
+    "minLevelBlockValue": 262576.7474398122,
+    "maxLevelBlockValue": 269743.8115243473,
+    "avgLevelBlockValue": 265932.9718350096,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 30,
+    "minLevelBlockValue": 269745.1440659503,
+    "maxLevelBlockValue": 277809.2039183974,
+    "avgLevelBlockValue": 273901.6456221559,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 31,
+    "minLevelBlockValue": 277884.3110265382,
+    "maxLevelBlockValue": 286333.54942252446,
+    "avgLevelBlockValue": 282277.51756605454,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 32,
+    "minLevelBlockValue": 286334.04763288196,
+    "maxLevelBlockValue": 295340.1338210498,
+    "avgLevelBlockValue": 290745.48790184216,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 33,
+    "minLevelBlockValue": 295416.6632578821,
+    "maxLevelBlockValue": 305378.65279152495,
+    "avgLevelBlockValue": 300569.2325646407,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 34,
+    "minLevelBlockValue": 305382.89719365066,
+    "maxLevelBlockValue": 315699.7059154338,
+    "avgLevelBlockValue": 310268.9443667956,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 35,
+    "minLevelBlockValue": 315810.2627737304,
+    "maxLevelBlockValue": 326656.374886456,
+    "avgLevelBlockValue": 321259.9185396342,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 36,
+    "minLevelBlockValue": 326689.3568088707,
+    "maxLevelBlockValue": 337062.3503463162,
+    "avgLevelBlockValue": 331560.17799061845,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 37,
+    "minLevelBlockValue": 337153.18763298535,
+    "maxLevelBlockValue": 349763.71506795107,
+    "avgLevelBlockValue": 343658.80596012174,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 38,
+    "minLevelBlockValue": 349779.4815940627,
+    "maxLevelBlockValue": 362487.73951119307,
+    "avgLevelBlockValue": 356143.1153264431,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 39,
+    "minLevelBlockValue": 362545.3731306692,
+    "maxLevelBlockValue": 377829.3744341139,
+    "avgLevelBlockValue": 369882.2237062264,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 40,
+    "minLevelBlockValue": 377888.96179602604,
+    "maxLevelBlockValue": 394503.8140310436,
+    "avgLevelBlockValue": 386109.93446500204,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 41,
+    "minLevelBlockValue": 394518.2572994863,
+    "maxLevelBlockValue": 415293.0622084857,
+    "avgLevelBlockValue": 404046.00563655846,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 42,
+    "minLevelBlockValue": 415344.50103454496,
+    "maxLevelBlockValue": 437338.1286604199,
+    "avgLevelBlockValue": 426351.6430195013,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 43,
+    "minLevelBlockValue": 437444.29434205254,
+    "maxLevelBlockValue": 462144.8144253688,
+    "avgLevelBlockValue": 449551.0802498231,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 44,
+    "minLevelBlockValue": 462188.7601899115,
+    "maxLevelBlockValue": 492814.002557957,
+    "avgLevelBlockValue": 477033.28288892476,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 45,
+    "minLevelBlockValue": 493298.99586430873,
+    "maxLevelBlockValue": 531704.3617488656,
+    "avgLevelBlockValue": 511304.4146168033,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 46,
+    "minLevelBlockValue": 531922.129206516,
+    "maxLevelBlockValue": 594816.714813771,
+    "avgLevelBlockValue": 558808.8393231697,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 47,
+    "minLevelBlockValue": 595050.4927559723,
+    "maxLevelBlockValue": 681169.1892933627,
+    "avgLevelBlockValue": 630801.1959468705,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 48,
+    "minLevelBlockValue": 682176.6952456043,
+    "maxLevelBlockValue": 883760.4284108115,
+    "avgLevelBlockValue": 769680.892429926,
+    "numLevelBlockValue": 217
+  },
+  {
+    "level": 49,
+    "minLevelBlockValue": 885324.962083861,
+    "maxLevelBlockValue": 3575462.4584869314,
+    "avgLevelBlockValue": 1387237.790667856,
+    "numLevelBlockValue": 217
+  }
+]

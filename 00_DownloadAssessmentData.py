@@ -6,6 +6,45 @@ import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor
 from collections import defaultdict
 from tqdm import tqdm
+from Classes.query_constructor import QueryConstructor
+
+_assessment_query_url = ''
+_parcels_query_url = ''
+_assessment_url_query_constructor = QueryConstructor()
+_parcels_url_query_constructor = QueryConstructor()
+
+def ensure_urls_end_with_a_forward_slash(url):
+    if not url.endswith('/'):
+        url += '/'
+        return url
+    else:
+        return url
+
+def construct_assessment_query_url():
+    global _assessment_url_query_constructor
+    _assessment_url_query_constructor.construct_query()
+
+def construct_parcels_query_url():
+    global _parcels_url_query_constructor
+    _parcels_url_query_constructor.construct_query()
+
+def assign_url_to_assessment_query_constructor():
+    global _assessment_url_query_constructor
+    _assessment_url_query_constructor.url = _assessment_query_url
+
+def assign_url_to_parcels_query_constructor():
+    global _parcels_url_query_constructor
+    _parcels_url_query_constructor.url = _parcels_query_url
+
+def assign_constructed_assessment_query_url():
+    global _assessment_url_query_constructor
+    global _assessment_query_url
+    _assessment_query_url = _assessment_url_query_constructor.return_constructed_query()
+
+def assign_constructed_parcels_query_url():
+    global _parcels_url_query_constructor
+    global _parcels_query_url
+    _parcels_query_url = _parcels_url_query_constructor.return_constructed_query()
 
 def download_assessment_data(assessment_url, parcels_url, output_file, year=2024, max_records_per_request=2000, use_cache=False, cache_file=None):
     """
@@ -21,30 +60,23 @@ def download_assessment_data(assessment_url, parcels_url, output_file, year=2024
         use_cache (bool): Whether to use cached assessment data if available
         cache_file (str): Path to the cache file for assessment data
     """
-    # Ensure URLs end with a forward slash
-    if not assessment_url.endswith('/'):
-        assessment_url += '/'
-    if not parcels_url.endswith('/'):
-        parcels_url += '/'
-    
-    # Construct the query URLs
-    assessment_query_url = assessment_url + "query"
-    parcels_query_url = parcels_url + "query"
+    global _assessment_query_url
+    global _parcels_query_url
+    global _assessment_url_query_constructor
+    global _parcels_url_query_constructor
+
+    _assessment_query_url = ensure_urls_end_with_a_forward_slash(assessment_url)
+    _parcels_query_url = ensure_urls_end_with_a_forward_slash(parcels_url)
+
+    assign_url_to_assessment_query_constructor()
+    assign_url_to_parcels_query_constructor()
+    construct_assessment_query_url()
+    construct_parcels_query_url()
+    assign_constructed_assessment_query_url()
+    assign_constructed_parcels_query_url()
     
     # Get assessment data (either from cache or by downloading)
     all_records = []
-    
-    if use_cache and cache_file and os.path.exists(cache_file):
-        print(f"Loading assessment data from cache file: {cache_file}")
-        try:
-            with open(cache_file, 'r') as f:
-                cached_data = json.load(f)
-                all_records = cached_data.get('features', [])
-            print(f"Successfully loaded {len(all_records)} records from cache.")
-        except Exception as e:
-            print(f"Error loading cache file: {e}")
-            print("Will download assessment data instead.")
-            use_cache = False
     
     if not use_cache or not all_records:
         # Prepare query parameters for assessment data
@@ -71,7 +103,7 @@ def download_assessment_data(assessment_url, parcels_url, output_file, year=2024
                 
                 # Make the request
                 try:
-                    response = requests.get(assessment_query_url, params=params)
+                    response = requests.get(_assessment_query_url, params=params)
                     response.raise_for_status()  # Raise an exception for HTTP errors
                     
                     data = response.json()
@@ -149,7 +181,7 @@ def download_assessment_data(assessment_url, parcels_url, output_file, year=2024
         }
         
         try:
-            response = requests.get(parcels_query_url, params=params)
+            response = requests.get(_parcels_query_url, params=params)
             response.raise_for_status()
             data = response.json()
             
@@ -183,7 +215,7 @@ def download_assessment_data(assessment_url, parcels_url, output_file, year=2024
         }
         
         try:
-            response = requests.get(parcels_query_url, params=params)
+            response = requests.get(_parcels_query_url, params=params)
             response.raise_for_status()
             data = response.json()
             
@@ -228,7 +260,7 @@ def download_assessment_data(assessment_url, parcels_url, output_file, year=2024
         }
         
         try:
-            response = requests.get(parcels_query_url, params=params)
+            response = requests.get(_parcels_query_url, params=params)
             response.raise_for_status()
             data = response.json()
             
