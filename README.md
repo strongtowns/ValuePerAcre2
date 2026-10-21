@@ -17,11 +17,11 @@ While higher density development typically corresponds with higher taxable value
 
 ## Demo
 
-This tool was used to compile the map at https://strongtownslangley.org/library/maps/valueperacre.php
+Strong Towns Langley uses this tool for its value-per-acre map at https://strongtownslangley.org/library/maps/valueperacre.php
 
-## Township of Langley Data Sources
+## Example Data: Township of Langley
 
-For the Township of Langley Data, this was taken from multiple sources:
+The repository ships with Township of Langley data as a worked example. Other municipalities need their own `01_CreateUnifiedFile_*.py` script that maps local assessment and parcel data into the unified format (see the Moldovan script for a second example). The Langley data came from these sources:
 
 ### 2024 Property Assessments, from TOL Open Data
 Source: https://data-tol.opendata.arcgis.com/datasets/6f63c681511e4856836a7c9f988a0a6f_0/
@@ -77,7 +77,7 @@ pip install shapely rtree tqdm pyproj geojson
 Note: For rtree installation on Windows, you may need to install the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 
 #### Run the Pipeline
-For Township of Langley data:
+For the Township of Langley example data:
 ```bash
 # Run the full pipeline
 python3 01_CreateUnifiedFile_Langley.py
@@ -218,7 +218,7 @@ Simplified example of the assessments file structure:
 
 This tool was programmed by James Hansen (james@strongtownslangley.org)
 
-This Python implementation is based on the original C# version (now deprecated) at https://github.com/StrongTownsLangley/ValuePerAcre/
+This Python implementation is based on the original C# version (now deprecated) at https://github.com/strongtowns/ValuePerAcre/
 
 Technologies used:
 - Python 3 with libraries:
@@ -229,10 +229,10 @@ Technologies used:
 
 ## Help and Contributing
 
-If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/YourUsername/ValuePerAcre2/issues) on the GitHub repository. Pull requests are also welcome.
+If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/strongtowns/ValuePerAcre2/issues) on the GitHub repository. Pull requests are also welcome.
 
-For additional help, join the Strong Towns Langley discord: https://discord.gg/MuAn3cFd8J and ask in the #🧮do-the-math channel.
+The author can also be found on the Strong Towns Local Conversation discord.
 
 ## License
 
-This program is released under the [Apache 2.0 License](LICENSE). If you use it for your website or project, please provide credit to **Strong Towns Langley** and preferably link to this GitHub.
+This program is released under the [Apache 2.0 License](LICENSE). If you use it for your website or project, please credit the author and link to this repository.
